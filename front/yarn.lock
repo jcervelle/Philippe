@@ -302,20 +302,25 @@
     fs-extra "^4.0.1"
     viz.js "^1.8.0"
 
-"@nebular/auth@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@nebular/auth/-/auth-4.1.2.tgz#ec0640bfce0ba766b647a0a82743c3542e2f1efd"
-  integrity sha512-fLCZgQwHgI3B8Zh4+y8R6n4WP+vyrrkDH9PkrNbAWU2eMUjOh4xobkGrFZRtu/XxMS/Apq5BKV2OxrLcEh4nEQ==
+"@fortawesome/fontawesome-free@^5.12.0":
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.14.0.tgz#a371e91029ebf265015e64f81bfbf7d228c9681f"
+  integrity sha512-OfdMsF+ZQgdKHP9jUbmDcRrP0eX90XXrsXIdyjLbkmSBzmMXPABB8eobUJtivaupucYaByz6WNe1PI1JuYm3qA==
 
-"@nebular/eva-icons@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@nebular/eva-icons/-/eva-icons-4.1.2.tgz#5603f29dcb1571078bd925abd989417cfc6216dc"
-  integrity sha512-awIRdhtncfdJVsn1JqaZfDYM0OSeIl3PH+MQKDJ4sAw1ARAiAkfm9ia53XI/rDayhQS8rm4mK28xuXGXc/9DHw==
+"@nebular/auth@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@nebular/auth/-/auth-4.6.0.tgz#3a025332d347d923db906d8d5520871640ba4b47"
+  integrity sha512-M9pgaXRjx6v9jbyfwKvre0bBZ9kzXtO9t5IHQTvhXgq6kH6b+B0A7UH0pwZm325p35dfA8y3rQTSS3ew2JnOSA==
 
-"@nebular/security@4.1.2":
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/@nebular/security/-/security-4.1.2.tgz#a94ed547264dd2f90c798346901f006e45cf4cba"
-  integrity sha512-MdG6UkCyeiKTyzdk8gOWn8tNuZhIQPW01142l/DowSeNKiu/+Zmj8FbkM+0c1IobhLKrS/TdoUP/3SODWP9S4g==
+"@nebular/eva-icons@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@nebular/eva-icons/-/eva-icons-4.6.0.tgz#66ce83c5754f19611eca143288209746bb2234c5"
+  integrity sha512-bTTMWIIygu+D5SLtejbhyCCS/7UvXug5KMnbItEx5qZkPGCggjn6aS6FVBGQ2EVsNg3s4kVGhb1KDFAkLQkPWQ==
+
+"@nebular/security@4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@nebular/security/-/security-4.6.0.tgz#a13cdbf0ea55ea37cd4757d0da3e5220bc034d42"
+  integrity sha512-eT0wJQbQnwq4LuTYIrBzD9IMbigqeJzn7/cMRRpZX3sMvhi+6UoA3ZX2Y8RmYLkrXMb13OvVY0OvpC+GqE8/IQ==
 
 "@nebular/theme@4.6.0":
   version "4.6.0"
@@ -1292,9 +1297,9 @@ bluebird@^3.3.0, bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.5:
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
+  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
 
 body-parser@1.19.0, body-parser@^1.16.1:
   version "1.19.0"
@@ -2961,9 +2966,9 @@ electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.124, electron-to-chromium
   integrity sha512-iezlV55/tan1rvdvt7yg7VHRSkt+sKfzQ16wTDqTbQqtl4+pSUkKPXpQHDvEt0c7gKcUHHwUbffOgXz6bn096g==
 
 elliptic@^6.0.0:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"
-  integrity sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -6130,6 +6135,13 @@ neo-async@^2.5.0, neo-async@^2.6.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+ngx-device-detector@^1.3.20:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/ngx-device-detector/-/ngx-device-detector-1.4.6.tgz#886d3e9b2fb37edc6061f4ccf114a63f1f4b50de"
+  integrity sha512-tYbd5HCNGjJc0U7nFjuy/ZZjKp5L4WP7Fo0O62DELyqPsCkqEkOgZxUeiheyZCCYFbXQRQ7PvQO5jnJBWMQxxA==
+  dependencies:
+    tslib "^1.9.0"
 
 nice-try@^1.0.4:
   version "1.0.5"
